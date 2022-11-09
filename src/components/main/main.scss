@@ -1,0 +1,36 @@
+/* MAIN styles */
+main {
+  padding: 57px 500px;
+  flex: 1 1 auto;
+  background-color: white;
+  color: #2b283a;
+  margin: 0 auto;
+
+}
+
+main.dark {
+  /* background-image: url("./images/react-icon-dark.png"); */
+  background-color: #282d35;
+  color: white;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts>li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts>li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
